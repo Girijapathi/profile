@@ -7,10 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <style>
+        header{
+            background-color: darkcyan;
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+        nav{            
+            
+            height: auto;
+            background-color: gray;
+            padding: 5px;
+        }
+        nav{
+            border: 1px solid black;
+        }
+        nav ul>li{
+            display: inline;
+        }
+        li{
+            padding: 5px;
+            border: 1px solid black;
+        }
+        article{
+            background: lightgray;
+            height: 300px;
+        }
+        footer{
+            height: 20px;
+            background: goldenrod;
+            width: 100%;
+        }
+        footer em{
+            align-items: center
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <p>Hello there!!!!!!!!11</p>
-    </div>
+    <header>
+        <h1>Demo site</h1>
+        <h4>Have more fun with HTML5</h4>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Conact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <p>This site is been developed by HTML:5</p>
+            <p>n this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.
+
+                    Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+        </article>
+    </section>
+    <footer>
+            <em>Credit: Giri</em>
+    </footer>
 </body>
 </html>
