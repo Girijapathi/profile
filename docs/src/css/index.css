@@ -3,6 +3,8 @@ header{
     text-align: center;
     color: white;
     padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 nav{            
     
@@ -10,15 +12,16 @@ nav{
     background-color: gray;
     padding: 5px;
 }
-nav{
-    border: 1px solid black;
+body{
+    border: 0.5px solid black;
+    border-radius: 5px;
 }
 nav ul>li{
     display: inline;
 }
 nav>ul>li{
     padding: 5px;
-    border: 1px solid black;
+    
 }
 article{
     background: lightgray;
@@ -29,6 +32,8 @@ footer{
     min-height: 40px;
     background: goldenrod;
     padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 footer em{
     align-items: center
