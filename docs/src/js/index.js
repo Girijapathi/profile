@@ -9,10 +9,10 @@ function loadAboutMe(){
     const test =  document.getElementById("article-body");
     test.innerHTML= `<p>Associate software engineer, working with Cerner Health care, India.
     </p>
+    <p>Hobbies:</p>
     <ul>
-    Hobbies:
-    <li>Learnign new technologies</li>
-    <li>Rreacding tech blogs</li>
+    <li>Learning new technologies</li>
+    <li>Reading tech blogs</li>
     <li>Fascinated about mobile operating systems</li>
     <li>Love Music</li>
     <li>Playing badminton</li>
