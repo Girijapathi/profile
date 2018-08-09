@@ -25,9 +25,9 @@ article{
     height: 200px;
 }
 footer{
-    height: auto;
+    min-height: 40px;
     background: goldenrod;
-    width: 100%;
+    padding: 10px;
 }
 footer em{
     align-items: center
