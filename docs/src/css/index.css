@@ -16,19 +16,25 @@ nav{
 nav ul>li{
     display: inline;
 }
-li{
+nav>ul>li{
     padding: 5px;
     border: 1px solid black;
 }
 article{
     background: lightgray;
-    height: 300px;
+    height: 200px;
 }
 footer{
-    height: 20px;
+    height: 30px;
     background: goldenrod;
     width: 100%;
 }
 footer em{
     align-items: center
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
 }

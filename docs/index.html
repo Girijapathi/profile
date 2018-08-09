@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Git hub website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/css/index.css" />
 </head>
 <body>
     <header>
@@ -16,21 +15,21 @@
     <section>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" onclick='return loadHome()'>Home</a></li>
+                
+                <li><a href="#" onclick='return loadAboutMe()'>About me</a></li>
+                <li><a href="#" onclick='return loadContact()'>Contact</a></li>
             </ul>
         </nav>
-        <article>
-            <p>This site is been developed by HTML:5</p>
-            <p>n this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.
-
-                    Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+        <article id="article-body">
+            <p>Hey, thanks for showing interest to read about me &hearts;</p>
+            <p>I am from small village of Bidar district in Karnataka, India. I can speak, read and write Kannada, Hindi and English languages fluently. I love to play badminton and watch movies in freetime.</p>
         </article>
     </section>
     <footer>
-            <em>Credit: Giri</em>
+        <p>This site is been developed using HTML5.<em>Credits: Giri</em></p>
+        
     </footer>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
