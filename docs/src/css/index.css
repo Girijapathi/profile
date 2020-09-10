@@ -12,10 +12,7 @@ header{
 h1, h3{
     margin: 0;
 }
-nav{    
-    height: auto;
-    padding: 5px;
-}
+
 body{
     border: 0.5px solid black;
     border-radius: 5px;
@@ -30,13 +27,16 @@ nav ul>li{
     display: inline;
 }
 nav>ul>li{
-    padding: 15px;
-    
+    padding: 15px;    
 }
-article{
-    min-height: 200px;
-    padding: 5px;
+
+#article-body{
+    padding: 15px;
     margin-left: 3%;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    width: 30%;
+    margin: 25px;
+    min-height: 250px;
 }
 footer{
     min-height: 40px;

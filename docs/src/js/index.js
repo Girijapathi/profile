@@ -1,11 +1,17 @@
 function loadHome(){
+    document.getElementById("article-gallery").setAttribute("style", "display: none");
+    document.getElementById("article-body").setAttribute("style", "display: block");
     const test =  document.getElementById("article-body");
     test.innerHTML= `<p>Hey, thanks for showing interest to read about me &hearts;</p>
-    <p>I am from small village of Bidar district in Karnataka, India. I can speak, read and write Kannada, Hindi and English languages fluently. I love to play badminton and watch movies during freetime.</p>
+    <p>I am from small village of Bidar district in Karnataka, India.</p>
+    <p>I can speak, read and write Kannada, Hindi and English languages fluently.</p>
+    <p>I love to play badminton and watch movies during freetime.</p>
     <p>I like to create website and webapplications, using latest Technologies like HTML5, CSS3, ReactJs.</p>`;
 }
 
 function loadAboutMe(){
+    document.getElementById("article-gallery").setAttribute("style", "display: none");
+    document.getElementById("article-body").setAttribute("style", "display: block");
     const test =  document.getElementById("article-body");
     test.innerHTML= `<p>Associate software engineer, working with Cerner Health care, India.
     </p>
@@ -20,6 +26,8 @@ function loadAboutMe(){
 }
 
 function loadContact(){
+    document.getElementById("article-gallery").setAttribute("style", "display: none");
+    document.getElementById("article-body").setAttribute("style", "display: block");
     const test =  document.getElementById("article-body");
     test.innerHTML =`<p>Girijapathi D Math</p>
     <p>#1-222</p>
@@ -29,7 +37,9 @@ function loadContact(){
     
 }
 function ShowGallery() {
-    const test =  document.getElementById("article-body");
+    document.getElementById("article-body").setAttribute("style", "display: none");
+    document.getElementById("article-gallery").setAttribute("style", "display: block");
+    const test =  document.getElementById("article-gallery");
     test.innerHTML =`<h2>Life in the wild!</h2>
     <div class="container">
         <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="" srcset="">

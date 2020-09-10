@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./src/css/style.css" />
 
 </head>
-<body>
+<body onload="loadHome()">
     <header>
         <h1><i>Hi there!</i> Welcome</h1>
         <h3>You will know more about me in this space, Happy browsing</h3>
@@ -17,17 +17,17 @@
     <section>
         <nav>
             <ul>
-                <li><a href="#" onclick='return loadHome()'>Home</a></li>
-                <li><a href="#" onclick='return loadAboutMe()'>About</a></li>
+                <li><a href="#" onclick='return loadHome()'>Home</a></li>                
                 <li><a href="#" onclick='return ShowGallery()'>Gallery</a></li>
+                <li><a href="#" onclick='return loadAboutMe()'>About</a></li>
                 <li><a href="#" onclick='return loadContact()'>Contact</a></li>
             </ul>
         </nav>
-        <article id="article-body">
-            <p>Hey, thanks for showing interest to read about me &hearts;</p>
-            <p>I am from a village of Bidar district in Karnataka state, India. I can speak, read and write Kannada, Hindi and English languages fluently. I love to play badminton and watch movies during my freetime.</p>
-            <p>I like to create website and webapplications, using latest Technologies like HTML5, CSS3, ReactJs.</p>
+        <article id="article-gallery">
         </article>
+        <article id="article-body">
+        </article>
+        
     </section>
     <footer>
         <address><p>This site is been developed using HTML5.<em>Credits: GitHub,  </em><em>Developed By: Giri</em></p></address>        
