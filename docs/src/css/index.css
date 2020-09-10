@@ -2,12 +2,17 @@ header{
     background:rgba(25,101,225);
     text-align: center;
     color: white;
-    padding: 30px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    position: sticky;
+    top: 2px;
+    z-index: 1;
+    padding: 10px;
 }
-nav{            
-    
+h1, h3{
+    margin: 0;
+}
+nav{    
     height: auto;
     padding: 5px;
 }
@@ -15,16 +20,23 @@ body{
     border: 0.5px solid black;
     border-radius: 5px;
 }
+nav ul {
+    background: #699CF2;
+    margin: 0;
+    padding: 15px;
+    color: black;
+}
 nav ul>li{
     display: inline;
 }
 nav>ul>li{
-    padding: 5px;
+    padding: 15px;
     
 }
 article{
     min-height: 200px;
     padding: 5px;
+    margin-left: 3%;
 }
 footer{
     min-height: 40px;
@@ -32,9 +44,10 @@ footer{
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    color: wheat;
 }
 footer em{
-    align-items: center
+    align-items: center;
 }
 
 a:link {
