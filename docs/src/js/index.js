@@ -30,7 +30,7 @@ function loadContact(){
 }
 function ShowGallery() {
     const test =  document.getElementById("article-body");
-    test.innerHTML =`<h1>Life in the wild!</h1>
+    test.innerHTML =`<h2>Life in the wild!</h2>
     <div class="container">
         <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="" srcset="">
         <img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" alt="" srcset="">

@@ -1,5 +1,5 @@
 header{
-    background-color: darkcyan;
+    background:rgba(25,101,225);
     text-align: center;
     color: white;
     padding: 30px;
@@ -9,7 +9,6 @@ header{
 nav{            
     
     height: auto;
-    background-color: gray;
     padding: 5px;
 }
 body{
@@ -24,13 +23,12 @@ nav>ul>li{
     
 }
 article{
-    background: lightgray;
     min-height: 200px;
     padding: 5px;
 }
 footer{
     min-height: 40px;
-    background: goldenrod;
+    background:rgba(25,101,225);
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
