@@ -29,7 +29,9 @@ nav ul>li{
 nav>ul>li{
     padding: 15px;    
 }
-
+section {
+    min-height: 450px;;
+}
 #article-body{
     padding: 15px;
     margin-left: 3%;
@@ -45,6 +47,8 @@ footer{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     color: wheat;
+    bottom: 0%;
+    position: sticky;
 }
 footer em{
     align-items: center;
